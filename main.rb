@@ -4,7 +4,7 @@ class Word
     attr_accessor :show_word
     def initialize(word)
       @word = word
-      @bank = @word.split("")m
+      @bank = @word.split("")
       @show_word = "_"*@word.length
     end
   
